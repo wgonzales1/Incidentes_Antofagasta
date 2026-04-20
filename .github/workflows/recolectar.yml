@@ -2,7 +2,7 @@ name: Recolectar Incidentes TomTom
 
 on:
   schedule:
-    - cron: '*/20 * * * *'   # cada 20 minutos
+    - cron: '*/30 * * * *'   # cada 30 minutos
   workflow_dispatch:           # también permite correrlo manualmente
 
 jobs:
